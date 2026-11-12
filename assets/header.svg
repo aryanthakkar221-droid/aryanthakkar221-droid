@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Aryan Thakkar, Mechatronics Engineering Student. Robotics, automation, AI tools.">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#3d6df2" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="#0a0b10"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <!-- cobot arm -->
+    <g fill="none" stroke="#3d6df2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M120 262H330"/>
+      <rect x="150" y="234" width="150" height="28"/>
+      <path d="M225 225V70" stroke-width="1" stroke-dasharray="4 5" stroke-opacity="0.45"/>
+      <g transform="translate(225 225)">
+        <g transform="rotate(35)">
+          <animateTransform attributeName="transform" type="rotate" values="33;39;33" keyTimes="0;0.5;1" dur="9s" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+          <rect x="-10" y="-160" width="20" height="160" rx="10"/>
+          <g transform="translate(0 -160)">
+            <g transform="rotate(40)">
+              <animateTransform attributeName="transform" type="rotate" values="44;34;44" keyTimes="0;0.5;1" dur="9s" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+              <rect x="-9" y="-150" width="18" height="150" rx="9"/>
+              <g transform="translate(0 -150)">
+                <circle r="9" fill="#0a0b10"/>
+                <path d="M-6 -8L-14 -26L-6 -36"/>
+                <path d="M6 -8L14 -26L6 -36"/>
+              </g>
+            </g>
+            <circle r="14" fill="#0a0b10"/>
+            <circle r="4" fill="#3d6df2" stroke="none"/>
+          </g>
+        </g>
+        <circle r="15" fill="#0a0b10"/>
+        <circle r="4.5" fill="#3d6df2" stroke="none"/>
+      </g>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#6f8fe8" letter-spacing="1">
+      <text x="150" y="282">BASE · J0</text>
+      <text x="292" y="182">θ1 54°</text>
+      <text x="352" y="48">θ2 -15°</text>
+    </g>
+
+    <!-- title block -->
+    <rect x="560" y="92" width="4" height="116" fill="#3d6df2"/>
+    <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="588" y="138" font-size="50" font-weight="700" fill="#ffffff">Aryan Thakkar</text>
+      <text x="589" y="172" font-size="19" font-weight="600" fill="#4c7bf5">Mechatronics Engineering Student</text>
+    </g>
+    <text x="589" y="203" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b93a7" letter-spacing="1.5">robotics  /  automation  /  ai tools</text>
+
+    <!-- status + footer -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#5b6377" letter-spacing="1.5">
+      <circle cx="1052" cy="33" r="3.5" fill="#3d6df2">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1064" y="37">SYSTEM ONLINE</text>
+      <text x="1168" y="276" text-anchor="end">THWS · WÜRZBURG-SCHWEINFURT</text>
+    </g>
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1c2233"/>
+  </g>
+</svg>
