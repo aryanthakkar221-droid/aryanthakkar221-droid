@@ -1,4 +1,4 @@
-<img src="assets/header.svg" alt="Aryan Thakkar, Mechatronics Engineering Student" width="100%" />
+<img src="assets/header.svg?v=3" alt="Aryan Thakkar, Mechatronics Engineering Student" width="100%" />
 
 Mechatronics engineering student at THWS in Schweinfurt, Germany. I like building things people can use right away: prototypes, bots and small tools.
 
