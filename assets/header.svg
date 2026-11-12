@@ -1,103 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Aryan Thakkar, Mechatronics Engineering Student. Robotics, automation, AI tools.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Aryan Thakkar, Mechatronics Engineering Student. Robotics, automation, AI tools.">
   <defs>
     <style>
-      .j1{animation:j1 6s ease-in-out infinite}
-      .j2{animation:j2 6s ease-in-out infinite}
-      .gl{animation:gl 6s ease-in-out infinite}
-      .gr{animation:gr 6s ease-in-out infinite}
-      .tg{animation:tg 6s ease-in-out infinite}
-      .dot{animation:dot 2.4s ease-in-out infinite}
-      @keyframes j1{0%,100%{transform:rotate(10deg)}50%,62%{transform:rotate(40deg)}}
-      @keyframes j2{0%,100%{transform:rotate(75deg)}50%,62%{transform:rotate(35deg)}}
-      @keyframes gl{0%,40%,75%,100%{transform:rotate(-14deg)}52%,62%{transform:rotate(0deg)}}
-      @keyframes gr{0%,40%,75%,100%{transform:rotate(14deg)}52%,62%{transform:rotate(0deg)}}
-      @keyframes tg{0%,45%,70%,100%{opacity:.45}52%,62%{opacity:1}}
-      @keyframes dot{0%,100%{opacity:1}50%{opacity:.25}}
-      .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-      .s{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+      .j1{animation:j1 5s ease-in-out infinite}
+      .j2{animation:j2 5s ease-in-out infinite}
+      .gl{animation:gl 5s ease-in-out infinite}
+      .gr{animation:gr 5s ease-in-out infinite}
+      @keyframes j1{0%,100%{transform:rotate(20deg)}50%{transform:rotate(48deg)}}
+      @keyframes j2{0%,100%{transform:rotate(60deg)}50%{transform:rotate(25deg)}}
+      @keyframes gl{0%,30%,80%,100%{transform:rotate(0deg)}50%,60%{transform:rotate(-14deg)}}
+      @keyframes gr{0%,30%,80%,100%{transform:rotate(0deg)}50%,60%{transform:rotate(14deg)}}
     </style>
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M20 0H0V20" fill="none" stroke="#3d6df2" stroke-opacity="0.07" stroke-width="1"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#3d6df2" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
-    <clipPath id="card"><rect width="1200" height="340" rx="14"/></clipPath>
-    <clipPath id="panel"><rect x="40" y="64" width="460" height="232"/></clipPath>
+    <clipPath id="card"><rect width="1200" height="300" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#card)">
-    <rect width="1200" height="340" fill="#0a0b10"/>
+    <rect width="1200" height="300" fill="#0a0b10"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
 
-    <!-- top bar -->
-    <g class="m" font-size="11" letter-spacing="1.5" fill="#5b6377">
-      <text x="40" y="38">ARYAN-THAKKAR / PROFILE</text>
-      <circle class="dot" cx="1046" cy="34" r="3.5" fill="#3d6df2"/>
-      <text x="1160" y="38" text-anchor="end">SYSTEM ONLINE</text>
-    </g>
-    <path d="M40 50H1160" stroke="#1c2233"/>
-
-    <!-- drawing panel -->
-    <rect x="40" y="64" width="460" height="232" fill="url(#grid)"/>
-    <rect x="40.5" y="64.5" width="459" height="231" fill="none" stroke="#1c2233"/>
-    <g fill="none" stroke="#3d6df2" stroke-width="2">
-      <path d="M40 78V64H54"/><path d="M486 64H500V78"/><path d="M500 282V296H486"/><path d="M54 296H40V282"/>
-    </g>
-    <g class="m" font-size="10" letter-spacing="1.5" fill="#6f8fe8">
-      <text x="54" y="86">FIG. 01 · COBOT ARM</text>
-      <text x="486" y="286" text-anchor="end">2 AXES SHOWN</text>
-    </g>
-    <g clip-path="url(#panel)" fill="none" stroke="#3d6df2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M200 252m-232 0a232 232 0 0 1 464 0" stroke-width="1" stroke-dasharray="3 6" stroke-opacity="0.35"/>
-      <path d="M200 252V110" stroke-width="1" stroke-dasharray="4 5" stroke-opacity="0.4"/>
-      <g class="tg" stroke-width="1.5">
-        <circle cx="432" cy="119" r="9"/>
-        <path d="M432 104V134M417 119H447"/>
-      </g>
-      <path d="M110 274H290"/>
-      <rect x="140" y="254" width="120" height="20"/>
-      <g transform="translate(200 252)">
-        <g class="j1" transform="rotate(25)">
-          <rect x="-9" y="-120" width="18" height="120" rx="9"/>
-          <g transform="translate(0 -120)">
-            <g class="j2" transform="rotate(55)">
-              <rect x="-8" y="-110" width="16" height="110" rx="8"/>
-              <g transform="translate(0 -110)">
-                <circle r="8" fill="#0a0b10"/>
-                <path class="gl" d="M-5 -7L-12 -22L-5 -32"/>
-                <path class="gr" d="M5 -7L12 -22L5 -32"/>
+    <!-- cobot arm -->
+    <g fill="none" stroke="#3d6df2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M120 262H330"/>
+      <rect x="150" y="234" width="150" height="28"/>
+      <path d="M225 225V70" stroke-width="1" stroke-dasharray="4 5" stroke-opacity="0.45"/>
+      <g transform="translate(225 225)">
+        <g class="j1" transform="rotate(35)">
+          <rect x="-10" y="-160" width="20" height="160" rx="10"/>
+          <g transform="translate(0 -160)">
+            <g class="j2" transform="rotate(40)">
+              <rect x="-9" y="-150" width="18" height="150" rx="9"/>
+              <g transform="translate(0 -150)">
+                <circle r="9" fill="#0a0b10"/>
+                <path class="gl" d="M-6 -8L-14 -26L-6 -36"/>
+                <path class="gr" d="M6 -8L14 -26L6 -36"/>
               </g>
             </g>
-            <circle r="12" fill="#0a0b10"/>
-            <circle r="3.5" fill="#3d6df2" stroke="none"/>
+            <circle r="14" fill="#0a0b10"/>
+            <circle r="4" fill="#3d6df2" stroke="none"/>
           </g>
         </g>
-        <circle r="14" fill="#0a0b10"/>
-        <circle r="4" fill="#3d6df2" stroke="none"/>
+        <circle r="15" fill="#0a0b10"/>
+        <circle r="4.5" fill="#3d6df2" stroke="none"/>
       </g>
     </g>
-    <text class="m" x="140" y="290" font-size="10" letter-spacing="1.5" fill="#6f8fe8">BASE · J0</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#6f8fe8" letter-spacing="1">
+      <text x="150" y="282">BASE · J0</text>
+      <text x="292" y="182">θ1 54°</text>
+      <text x="352" y="28">θ2 -15°</text>
+    </g>
 
     <!-- title block -->
-    <rect x="548" y="92" width="4" height="112" fill="#3d6df2"/>
-    <text class="s" x="576" y="136" font-size="50" font-weight="700" fill="#ffffff">Aryan Thakkar</text>
-    <text class="s" x="577" y="170" font-size="19" font-weight="600" fill="#4c7bf5">Mechatronics Engineering Student</text>
-    <text class="m" x="577" y="200" font-size="13" fill="#8b93a7" letter-spacing="1.5">robotics  /  automation  /  ai tools</text>
-
-    <!-- spec row -->
-    <g class="m" font-size="10" letter-spacing="1.5">
-      <g fill="none" stroke="#1c2233">
-        <rect x="548.5" y="232.5" width="196" height="63"/>
-        <rect x="756.5" y="232.5" width="196" height="63"/>
-        <rect x="964.5" y="232.5" width="195" height="63"/>
-      </g>
-      <g fill="#5b6377">
-        <text x="564" y="256">STUDY</text><text x="772" y="256">BASE</text><text x="980" y="256">BUILDING</text>
-      </g>
-      <g fill="#c9d1e3" font-size="12.5" letter-spacing="0.5">
-        <text x="564" y="279">B.Eng. at THWS</text><text x="772" y="279">Schweinfurt, DE</text><text x="980" y="279">robots + bots</text>
-      </g>
+    <rect x="560" y="92" width="4" height="116" fill="#3d6df2"/>
+    <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="588" y="138" font-size="50" font-weight="700" fill="#ffffff">Aryan Thakkar</text>
+      <text x="589" y="172" font-size="19" font-weight="600" fill="#4c7bf5">Mechatronics Engineering Student</text>
     </g>
+    <text x="589" y="203" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8b93a7" letter-spacing="1.5">robotics  /  automation  /  ai tools</text>
 
-    <!-- bottom rule -->
-    <path d="M40 314H1160" stroke="#1c2233"/>
-    <path d="M40 314v6M180 314v6M320 314v6M460 314v6M600 314v6M740 314v6M880 314v6M1020 314v6M1160 314v6" stroke="#1c2233"/>
-    <rect x="0.5" y="0.5" width="1199" height="339" rx="14" fill="none" stroke="#1c2233"/>
+    <!-- status + footer -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#5b6377" letter-spacing="1.5">
+      <circle cx="1052" cy="33" r="3.5" fill="#3d6df2">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="1064" y="37">SYSTEM ONLINE</text>
+      <text x="1168" y="276" text-anchor="end">THWS · WÜRZBURG-SCHWEINFURT</text>
+    </g>
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1c2233"/>
   </g>
 </svg>

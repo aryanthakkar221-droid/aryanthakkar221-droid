@@ -32,3 +32,7 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 ## Find me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Thakkar-3d6df2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b10)](https://www.linkedin.com/in/aryan-thakkar-983b56293)
+
+---
+
+> *"Build it, test it, then make it move."*
