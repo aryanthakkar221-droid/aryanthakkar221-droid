@@ -4,7 +4,7 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 
 **Currently working on:** robot arms and cobots · robot programming · C++ and microcontrollers · machine learning · design of experiments · bots and AI tools
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Thakkar-3d6df2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b10)](https://www.linkedin.com/in/aryan-thakkar-983b56293)
+---
 
 ## Projects
 
@@ -15,6 +15,8 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 | Caritas-Wegweiser | Voice assistant prototype that routes people to the right Caritas service, built in one day at the InclusivAI Hackathon. I worked on the frontend | Team of 7 |
 | [Flash Cards Study Assistant](https://github.com/aryanthakkar221-droid/Java) | Console app to create flash cards and quiz yourself | Java |
 
+---
+
 ## Tech stack
 
 ![C++](https://img.shields.io/badge/C++-141821?style=flat-square&logo=cplusplus&logoColor=6f8fe8)
@@ -24,3 +26,9 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 ![Node.js](https://img.shields.io/badge/Node.js-141821?style=flat-square&logo=nodedotjs&logoColor=6f8fe8)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-141821?style=flat-square&logo=githubactions&logoColor=6f8fe8)
 ![3D CAD](https://img.shields.io/badge/3D_CAD-141821?style=flat-square)
+
+---
+
+## Find me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aryan_Thakkar-3d6df2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b10)](https://www.linkedin.com/in/aryan-thakkar-983b56293)
