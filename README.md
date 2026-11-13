@@ -6,6 +6,16 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 
 ---
 
+## Building now
+
+### [The Turning Wheel](https://github.com/aasthathakkar/the_turning_wheel) &nbsp;![status](https://img.shields.io/badge/in_progress-3d6df2?style=flat-square&labelColor=0a0b10)
+
+Online storefront for a small business selling imported crockery and kitchenware. Customers browse the catalog, fill a cart, and send the whole order to the seller on WhatsApp. Built together with [Aastha Thakkar](https://github.com/aasthathakkar). [Live site](https://the-turning-wheel.vercel.app)
+
+The frontend and the surrounding ecosystem are ready. I am now connecting the backend and adding chatbots for the helpline.
+
+---
+
 ## Projects
 
 | Project | What it is | Built with |
