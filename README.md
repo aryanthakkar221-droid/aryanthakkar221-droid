@@ -6,16 +6,6 @@ Mechatronics engineering student at THWS in Schweinfurt, Germany. I like buildin
 
 ---
 
-## Pinned
-
-### AUTOPILOT by WRATHOFCODE &nbsp;![START Hack Munich 2026](https://img.shields.io/badge/START_Hack_Munich_2026-3d6df2?style=flat-square&labelColor=0a0b10)
-
-A digital air-freight forwarder that answers every air-export price request on its own, all night. It reads the email, prices the shipment from airline rate sheets, a rate portal and carrier bids, replies with one quote, and books the flight when the customer says yes. A live control room lets a person take over at any moment. Built by a team of 4 in 22 hours for the 5U AI challenge.
-
-I built the data layer: rate sheets, the rate-portal client, carrier bids, booking and monthly tariff ingestion.
-
----
-
 ## Building now
 
 ### [The Turning Wheel](https://github.com/aasthathakkar/the_turning_wheel) &nbsp;![status](https://img.shields.io/badge/in_progress-3d6df2?style=flat-square&labelColor=0a0b10)
